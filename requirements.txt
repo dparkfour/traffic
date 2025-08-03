@@ -1,0 +1,18 @@
+# Core Python libraries
+numpy
+matplotlib
+pandas
+
+# Reinforcement Learning
+gymnasium==0.29.1       # OpenAI Gym (newer version)
+stable-baselines3==2.1.0
+
+# Optional: for simulation timing + randomness control
+scipy
+
+# Visualization / UI (optional)
+pygame                 # If you want to animate cars and lights
+streamlit             # If you want to build a dashboard
+
+# Developer tools
+tqdm                   # For progress bars during training
